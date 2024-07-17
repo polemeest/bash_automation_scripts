@@ -65,7 +65,7 @@ WantedBy=multi-user.target
 EOL
 
 # Шаг 2: Создание юнита для запуска селери
-if [[ $CELERY = true ]] then
+if [[ $CELERY = true ]]; then
   sudo tee /etc/systemd/system/celery_$PROJECTNAME.service > /dev/null <<EOL
 [Unit]
 Description=Celery instance to serve $PROJECTNAME
