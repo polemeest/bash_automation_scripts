@@ -1,7 +1,7 @@
 # Automation
 
 ## Clear_migrations
-Needed for Django for the most part.
+Standalone script for Django projects.
 Takes additional arg -p <path> if there is some other path to your apps folder other than "apps"
 Then walks through all dirs inside and deletes all migration files.
 
