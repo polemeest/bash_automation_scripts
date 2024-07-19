@@ -24,6 +24,9 @@ while getopts "cs:p:" opt; do
     p)
       PROJECTNAME=$OPTARG
       ;;
+    h)
+      usage
+      ;;
     ?)
       usage
       ;;

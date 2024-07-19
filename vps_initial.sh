@@ -8,18 +8,20 @@ usage() {
   exit 1
 }
 
-while getopts "fsn" $opt do
+while getopts "fsnh" opt; do
     case $opt in
         f)  
          SSH=true
          NEOVIM=true
-         esac
-         ;;
+         ;; 
         s)
          SSH=true
          ;;
         n)
          NEOVIM=true
+         ;;
+        h)
+         usage
          ;;
     esac
 done
