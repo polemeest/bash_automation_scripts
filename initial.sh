@@ -1,6 +1,6 @@
 #!/bin/bash
 usage() {
-  echo "Usage: $0 [-f] [-s] [-n] [-h]"
+  echo "Usage: $0 [-f] [-s] [-n] [-h] [-p [version]]"
   echo "  -s    Include ssh configuration"
   echo "  -n    Include neovim install"
   echo "  -u    Update and install packages"
@@ -15,6 +15,7 @@ while getopts "fsnh" opt; do
         f)  
          SSH=true
          NEOVIM=true
+         UPDATE=true
          ;; 
         s)
          SSH=true
