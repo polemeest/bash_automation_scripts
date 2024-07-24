@@ -24,3 +24,4 @@ Accepts [-f] [-s] [-n] [-h] [-u] [-p [version]] flags:
 - -f makes all but python
 - -h prints help message
 You need your id_rsa.pub file in root directory for ssh configuration.
+You may want to also check this repo for further neovim configuration: https://github.com/polemeest/neovim-python
