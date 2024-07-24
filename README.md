@@ -13,3 +13,14 @@ Before running, ensure that you have database set up and .env configured.
 Basically makes your project fly, from writing units to makemigrations and collectstatic.
 **I suppose you'll need to personalise the script a bit**.
 Should harmlessly skip through all steps that couldn't be completed.
+
+## Initial
+Configures base you need for python development.
+Accepts [-f] [-s] [-n] [-h] [-u] [-p [version]] flags:
+- -s configures SSH (make sure you know what you're doing)
+- -n gets and configures neovim
+- -p [version] makes altinstall of python of specific version or latest (i.e. -p 3.12.1)
+- -u updates && upgrades system and installs basic packages
+- -f makes all but python
+- -h prints help message
+You need your id_rsa.pub file in root directory for ssh configuration.
