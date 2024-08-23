@@ -24,10 +24,10 @@ sudo apt install python3 python3-pip
 sudo $home/.python/bin/python$sub -m pip install -U pip
 # Write paths to rcs
 cd
-echo export PATH="$PATH:$home/.python/bin/python$sub" > ~/.bashrc
+echo export PATH="$PATH:$home/.python/bin/python$sub" >> ~/.bashrc
     . ~/.bashrc
 if [ -d ~/.zshrc ]; then
-    echo export PATH="$PATH:$home/.python/bin/python$sub" > ~/.zshrc
+    echo export PATH="$PATH:$home/.python/bin/python$sub" >> ~/.zshrc
     . ~/.zshrc
 fi
 # make checks
