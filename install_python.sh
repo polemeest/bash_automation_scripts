@@ -31,6 +31,6 @@ if [ -d ~/.zshrc ]; then
     . ~/.zshrc
 fi
 # make checks
-echo python3.12 --version
-echo python3.12-pip --version
+python3.12 --version
+python3.12-pip --version
 
