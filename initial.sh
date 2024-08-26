@@ -56,7 +56,7 @@ if [[ $NEOVIM = true ]]; then
         . ~/.zshrc
     fi
     sudo rm ./nvim-linux64.tar.gz
-    sudo git clone https://github.com/dreamsofcode-io/neovim-go-config.git ~/.config/nvim/lua/custom
+    sudo git clone https://github.com/polemeest/neovim-python.git ~/.config/nvim/lua/custom
     nvim -c "wq"
 fi
 
