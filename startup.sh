@@ -124,7 +124,7 @@ EOL
 sudo systemctl restart nginx
 
 # Шаг 5: Задание прав на выполненияе для скриптов запуска селери и гуникорна
-chmod +x ./bin/*
+sudo chmod +x ./bin/*
 
 # Шаг 6: Установка сервера редис (очереди для задач)
 sudo apt-get update
